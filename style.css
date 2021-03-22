@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: lightgrey;
+}
+
+footer {
+    text-align: center;
+}
+
+div.form {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(250, 249, 249);
+    padding: 10%;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(253, 131, 156);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 30%;
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: rgb(241, 58, 95);
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid rgb(253, 131, 156);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: silver;
+}
+
+table input[type=text] {
+    width: 70px;
+}
+
+table input[name=qty] {
+    text-align: center;
+}
+
+.credit_type {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
